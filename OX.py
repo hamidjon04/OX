@@ -77,7 +77,7 @@ class MyWindow(QWidget):
             self.winner()
         
 
-        if self.count == 9:
+        elif self.count == 9:
             self.lbl.setText("Durrang")
 
     def winner(self):
